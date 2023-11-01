@@ -3,10 +3,11 @@ import React from 'react'
 import mainBg from 'assets/main-bg.png'
 import CommonButton from 'components/commonButton'
 import Text from 'components/commonTypography'
+import { globalGradient1 } from 'global'
 export default function Default() {
     return (
         <Box sx={{
-            background: 'linear-gradient(to right, rgba(247, 141, 250, 0.2), rgba(247, 141, 167, 0.1))',
+            background: globalGradient1,
             paddingTop: '100px'
         }}>
             <Container>

@@ -1,17 +1,18 @@
-import { Box, Button, Container, Grid, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import './App.css';
 import Navbar from 'components/navbar'
 import Landing from 'views/landing'
-import Text from 'components/commonTypography'
-import LineBreak from 'components/lineBreak'
-import CommonButton from 'components/commonButton'
 import About from 'views/about'
+import Services from 'views/services'
+import Experience from 'views/experience'
 function App() {
   return (
     <Box>
       <Navbar />
       <Landing />
       <About/>
+      <Services/>
+      <Experience/>
     </Box>
   );
 }

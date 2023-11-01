@@ -3,23 +3,18 @@ import Text from 'components/commonTypography'
 import LineBreak from 'components/lineBreak'
 import CommonButton from 'components/commonButton'
 import aboutBg from 'assets/about-bg.jpg'
+import Header from 'components/header'
+import { globalColor } from 'global';
 export default function Default() {
     return (
         <Box sx={{
-            marginTop:'40px'
+            marginTop: '40px'
         }}>
             <center>
-                <Box>
-                    <Text
-                        text='About Me'
-                        size='48px'
-                    />
-                    <Text
-                        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-                        size='16px'
-                    />
-                    <LineBreak />
-                </Box>
+                <Header
+                    header="About Me"
+                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                />
             </center>
             <Container sx={{
                 marginTop: '70px'
@@ -67,11 +62,12 @@ export default function Default() {
                             marginLeft: '5%',
                             width: '100%',
                             borderRadius: '16px',
-                            backgroundColor: '#cf332b',
+                            backgroundColor: globalColor,
                             display: 'flex',
-                            alignItems: 'center'
+                            alignItems: 'center',
+                            paddingBottom: '5%',
                         }}>
-                            <img src={aboutBg} alt='' width={'95%'} style={{ marginTop: '5%' }} />
+                            <img src={aboutBg} alt='' width={'100%'} style={{ marginTop: '5%', marginLeft: '-5%' }} />
                         </Box><br /><br />
                     </Grid>
                 </Grid>
