@@ -1,3 +1,4 @@
+import { globalColor } from 'global'
 import React from 'react'
 
 export default function Default() {
@@ -5,7 +6,7 @@ export default function Default() {
         <hr style={{
             width: '100px',
             height: '3px',
-            backgroundColor: '#cf332b',
+            backgroundColor: globalColor,
             marginTop: '10px'
         }} />
     )
