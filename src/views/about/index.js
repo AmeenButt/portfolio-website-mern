@@ -7,7 +7,7 @@ import Header from 'components/header'
 import { globalColor } from 'global';
 export default function Default() {
     return (
-        <Box sx={{
+        <Box id='about' sx={{
             marginTop: '40px'
         }}>
             <center>
