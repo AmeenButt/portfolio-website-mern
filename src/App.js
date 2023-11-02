@@ -5,6 +5,9 @@ import Landing from 'views/landing'
 import About from 'views/about'
 import Services from 'views/services'
 import Experience from 'views/experience'
+import Portfolio from 'views/portfolio'
+import StayInTouch from 'views/stayInTouch'
+import Footer from 'components/footer'
 function App() {
   return (
     <Box>
@@ -13,6 +16,9 @@ function App() {
       <About/>
       <Services/>
       <Experience/>
+      <Portfolio />
+      <StayInTouch/>
+      <Footer/>
     </Box>
   );
 }

@@ -6,7 +6,7 @@ import Text from 'components/commonTypography'
 import { globalGradient1 } from 'global'
 export default function Default() {
     return (
-        <Box sx={{
+        <Box id='home' sx={{
             background: globalGradient1,
             paddingTop: '100px'
         }}>

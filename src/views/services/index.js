@@ -28,7 +28,7 @@ export default function Default() {
         },
     ])
     return (
-        <Box sx={{
+        <Box id='#services' sx={{
             background: globalGradient1,
         }}>
             <Box sx={{
