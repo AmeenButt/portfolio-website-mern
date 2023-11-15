@@ -1,16 +1,27 @@
 import { Box, Button, Container, MenuItem } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../assets/logo.png'
 import CommonButton from 'components/commonButton'
 export default function Default() {
+    const [navColor, setNavColor] = useState(false)
+    const changeNavcolor = () => {
+        if (window.scrollY > 600) {
+            setNavColor(true)
+        }
+        else {
+            setNavColor(false)
+        }
+    }
+    window.addEventListener('scroll', changeNavcolor)
     return (
         <Box style={{
             position: 'fixed',
             top: '0',
             left: '0',
             width: '100%',
-            padding: '10px 0px',
-            background: 'linear-gradient(to right, rgba(247, 226, 256, 1), rgba(247, 226, 256, 1))',
+            padding: navColor ? '5px 0px ' : '10px 0px',
+            background: navColor ? 'white' : 'transparent',
+            boxShadow: navColor ? '0px 4px 25px 0px rgba(0, 0, 0, 0.10)' : 'none',
             zIndex: '9'
 
         }}>
