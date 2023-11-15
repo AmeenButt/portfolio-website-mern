@@ -13,7 +13,7 @@ export default function Default() {
             <center>
                 <Header
                     header="About Me"
-                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                    text='Elevating Digital Journeys: Unleashing Innovation, Crafting Excellence, and Embracing the Extraordinary in Every Code Line.'
                 />
             </center>
             <Container sx={{
@@ -28,11 +28,11 @@ export default function Default() {
                         <LineBreak />
                         <br />
                         <Text
-                            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
+                            text='As a MERN Stack Developer, I thrive on crafting robust web solutions. With a passion for innovation, I bring creativity and expertise to every project.'
                             size='16px'
                         /><br />
                         <Text
-                            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                            text=' I specialize in building dynamic and scalable web applications. My mission is to transform ideas into seamless digital experiences.'
                             size='16px'
                         /><br /><br />
                         <CommonButton text='Contact Me' />
@@ -47,11 +47,11 @@ export default function Default() {
                         }}>
                             <Box><br />
                                 <Text
-                                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
+                                    text='Bringing a wealth of experience in creating impactful web solutions. My commitment lies in delivering excellence through innovative development and a keen eye for detail.'
                                     size='16px'
                                 /><br />
                                 <Text
-                                    text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                                    text='My journey is fueled by a relentless pursuit of excellence. I thrive on transforming intricate concepts into seamless, user-centric digital experiences, blending creativity with precision.'
                                     size='16px'
                                 /><br />
                             </Box>

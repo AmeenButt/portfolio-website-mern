@@ -56,12 +56,12 @@ export default function Default() {
                     <Grid item xs={12} sm={12} md={4} lg={4}>
                         <Box sx={{
                             display: 'flex',
-                            width:'100%',
-                            flexDirection:{
-                                xs:'row',
-                                sm:'row',
-                                md:'row-reverse',
-                                lg:'row-reverse',
+                            width: '100%',
+                            flexDirection: {
+                                xs: 'row',
+                                sm: 'row',
+                                md: 'row-reverse',
+                                lg: 'row-reverse',
                             },
                             alignItems: {
                                 xs: 'center',
@@ -70,22 +70,34 @@ export default function Default() {
                                 lg: 'right',
                             }
                         }}>
-                            <LinkedIn sx={{
-                                color: 'white',
-                                marginRight: '10px'
-                            }} />
-                            <Instagram sx={{
-                                color: 'white',
-                                marginRight: '10px'
-                            }} />
-                            <Facebook sx={{
-                                color: 'white',
-                                marginRight: '10px'
-                            }} />
-                            <Twitter sx={{
-                                color: 'white',
-                                marginRight: '10px'
-                            }} />
+                            <a href='https://www.linkedin.com/in/ameen-butt-15ba82221/' target='_blank'>
+                                <LinkedIn sx={{
+                                    color: 'white',
+                                    marginRight: '10px',
+                                    cursor: 'pointer'
+                                }} />
+                            </a>
+                            <a href='https://www.instagram.com/ameenbutt789/' target='_blank'>
+                                <Instagram sx={{
+                                    color: 'white',
+                                    marginRight: '10px',
+                                    cursor: 'pointer'
+                                }} />
+                            </a>
+                            <a href='https://www.facebook.com/profile.php?id=100010008497121' target='_blank'>
+                                <Facebook sx={{
+                                    color: 'white',
+                                    marginRight: '10px',
+                                    cursor: 'pointer'
+                                }} />
+                            </a>
+                            <a href='https://twitter.com/ameenbutt12' target='_blank'>
+                                <Twitter sx={{
+                                    color: 'white',
+                                    marginRight: '10px',
+                                    cursor: 'pointer'
+                                }} />
+                            </a>
                         </Box>
                     </Grid>
                 </Grid>

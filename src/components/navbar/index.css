@@ -1,0 +1,19 @@
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-70px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInToTop {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-70px);
+    }
+}

@@ -88,7 +88,7 @@ export default function Default() {
                 <center>
                     <Header
                         header="My Portfolio"
-                        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        text='Elevating Digital Experiences, One Line of Code at a Time: Unleashing Innovation and Craftsmanship in the World of Web Development.'
                     />
                 </center><br /><br /><br />
                 <Container>

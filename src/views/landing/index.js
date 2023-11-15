@@ -18,14 +18,15 @@ export default function Default() {
                             sm: '10px',
                             md: '200px',
                             lg: '200px',
-                        }
+                        },
+                        paddingBottom:'50px'
                     }}>
                         <Text
                             text="I'm Web Developer Ameen Ullah Khalid"
                             size={'68px'}
                         />
                         <Text
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctusnec ullamcorper mattis, pulvinar dapibus leop llamcorper, lorem ipsum."
+                            text="An enthusiastic MERN Stack Developer exhibiting creative fixes. creating impactful digital experiences by fusing innovation, usability, and cutting-edge technologies."
                             size={'28px'}
                         />
                         <Box sx={{
@@ -35,7 +36,7 @@ export default function Default() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} md={5} lg={5}>
-                        <img src={mainBg} alt='mainBg' width={'100%'} />
+                        <img src={mainBg} alt='mainBg' width={'100%'} height={'100%'} />
                     </Grid>
                 </Grid>
             </Container>

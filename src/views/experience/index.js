@@ -10,20 +10,20 @@ import { globalGradient1 } from 'global'
 export default function Default() {
     const [services, setServices] = useState([
         {
-            header: 'MERN Stack Developer',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-            from: '06/2022',
-            till: '01/2023',
+            header: 'MERN Stack Lead',
+            text: 'As a dedicated MERN Stack Developer at our service-based company, I not only lead the development of cutting-edge web solutions but also mentor and guide our talented MERN Stack interns. My role involves shaping the next generation of developers, fostering growth, and ensuring the success of our team in delivering top-notch services to our clients.',
+            from: '06/2023',
+            till: 'Currently Employeed',
         },
         {
             header: 'MERN Stack Developer',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
-            from: '06/2022',
-            till: '01/2023',
+            text: 'As a MERN Stack Developer at a dynamic service-based company, I contributed significantly to crafting web applications and mobile app backends. Leveraging MongoDB, Express.js, React, and Node.js, I played a key role in developing innovative solutions, enhancing the digital landscape for our clients and ensuring seamless integration across platforms.',
+            from: '01/2023',
+            till: '06/2023',
         },
         {
             header: 'MERN Stack Developer',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+            text: "Drawing from my extensive experience as a MERN Stack Developer, I've played a pivotal role in enhancing company products. Spearheading projects, I've seamlessly integrated MongoDB, Express.js, React, and Node.js to elevate functionality and user experiences, ensuring the continuous evolution of our flagship products.",
             from: '06/2022',
             till: '01/2023',
         },
@@ -66,7 +66,7 @@ export default function Default() {
                                         weight='500'
                                         color={globalColor}
                                     />&nbsp;-&nbsp;<Text
-                                        text={item.from}
+                                        text={item.till}
                                         size='18px'
                                         weight='500'
                                         color={globalColor}

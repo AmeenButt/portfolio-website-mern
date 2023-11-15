@@ -10,7 +10,7 @@ export default function Default() {
       <center>
         <Header
           header="Stay In Touch"
-          text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
+          text="Stay Connected, Stay Informed: Join the Journey of Innovation. Let's Keep the Conversation Alive, Where Ideas and Inspiration Unite."
         />
       </center>
       <Container>

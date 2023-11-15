@@ -10,19 +10,19 @@ export default function Default() {
     const [services, setServices] = useState([
         {
             header: 'Web Development',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+            text: 'Elevate your digital presence with our comprehensive web development services. We specialize in crafting responsive, scalable, and visually stunning websites tailored to your unique needs.',
             img: WebIcon,
             onClick: () => { }
         },
         {
             header: 'Backend Development',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+            text: 'Empower your applications with our robust backend development services. We specialize in creating scalable, secure, and efficient server-side solutions, optimizing performance and ensuring seamless functionality.',
             img: WebIcon,
             onClick: () => { }
         },
         {
             header: 'Custom Solutions',
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.',
+            text: 'Unlock tailored excellence with our custom solutions service. We specialize in crafting unique, innovative solutions to address your specific challenges, ensuring efficiency and optimal performance for your business.',
             img: WebIcon,
             onClick: () => { }
         },
@@ -39,7 +39,7 @@ export default function Default() {
                 <center>
                     <Header
                         header="What Services I'm Providing"
-                        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                        text='Tailored Solutions, Infinite Possibilities: Your Vision, Our Expertise - Crafting Custom Solutions for Your Unique Business Needs.'
                     />
 
                 </center>
